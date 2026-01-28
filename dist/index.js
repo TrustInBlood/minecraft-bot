@@ -1,3 +1,4 @@
+import "dotenv/config";
 import { Client, GatewayIntentBits, ActivityType } from "discord.js";
 import { loadConfig } from "./config.js";
 import { getServerStatus } from "./minecraft.js";
